@@ -1,0 +1,83 @@
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+div {
+    height:190px;
+    padding: 20px;
+    margin: 40px;
+    /*color: red;*/
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.pictures img {
+    padding: 1px;
+    border:1px solid black;
+    width: 40%;
+    height:250px;
+    margin:18px;
+}
+.button {
+    position:absolute;
+    top: 450px;
+    left: 500px;
+    /*width:20%;*/
+}
+html { 
+  background: url(http://static.tumblr.com/a8a4c8c543b45093f4059e0fe9f31004/j3fd7ac/xHIo3olqh/tumblr_static_agfqvn8jw1s0s880c8g0k8k8w.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
