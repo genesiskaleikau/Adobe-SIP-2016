@@ -1,53 +1,103 @@
+#genesis img{
+    float: left;
+    border: none;
+    width: 600px;
+    height: 600px;
+
+}
 body{
 	background-color: bisque;
 }
-.class{
-	display: inline-block;
-}
+
 div h3{
 	padding-top: 30px;
     margin: 10px;
 }
-nav {
+/*nav {
 background-color: aquamarine;
-}
-.navigation{
+}*/
+/*.navigation{
 	padding: 8px;
 	padding-left:10px;
 	padding-right: 10px;
 	margin:30px;
-	display: inline-block;
-
+	display: inline-block;*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aquamarine;
 }
-div{
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: aquamarine;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+#intro div{
 	height:187px;
-	padding:5%;
-	margin:4px;
+/*	padding:5%;
+*/	margin-top:2%;
 	display: inline-block;
 }
-.images{
-	display: inline-block;
-	
-}
-.images img {
-    padding:1px;
-   	border:1px solid #021a40;
-    width: 20%;
-    height: 250px;
-    margin: 18px;
 
+#intro #gwc{
+   	position: absolute;
+   	width:200px;
+	margin-top: -120px;
+   	margin-left: -100px;
 }
-#intro img{
-	float: left;
+#intro #me{
+	float:left;
 }
-
-#intro h2{
-	font-size: x-large;
-	float:right;
+#intro p{
+    margin-top: -50px;
+    text-align: center;
+}
+#intro h1{
+	text-align: center;
+    font-size: 505%;
 }
 #intro{
 	background-color: #e2bbb8;
+    margin-top:-3%;
 }
+/*#genesis img {
+     max-width: 250px;
+     max-height: 250px;
+}*/
+.img-circle {
+    border-radius: 70%; 
+    width: 19pc;
+    height: 19pc;
+    position: absolute;   
+}
+
+h3{
+    margin-left:46px;
+}
+/*#intro div{
+	float: left;
+	margin: 10px;
+	width: initial;
+	height: intitial;
+}*/
 /*.images img {
 
 }*/
@@ -55,6 +105,27 @@ div{
 /*nav h2 {
 
 }*/
-div p {
-font-size: larger;
+/*/*div p {
+font-size: larger;*/
+.circle {
+    border-radius: 50%;
+}
+.type1 {
+    border: 10px solid #d9d0d0;
+    /*height: 500px;
+    width: 500px:;*/
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+
+
+   /* width: 500px;
+    height: 500px;
+    background: solid blue;
+    border: 30px solid blue;
+    position: absolute;
+    margin-left: 25%;*/
+    
 }
